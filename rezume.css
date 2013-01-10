@@ -1,0 +1,254 @@
+﻿	
+*{margin:0;
+padding:0;}
+	
+	/*Первый слой*/	
+body {
+	/*background-image: url(pic/fon.jpg);*/
+	background-color: #C04000;
+	font-family: Tahoma,  sans-serif;
+	margin: 0 auto;
+	}
+	/*Второй слой*/	
+	#ground-white{
+		margin: 0 auto;
+		width: 980px;
+		background-color: #fff;
+		}		
+	/*Третий слой - рабочий*/	
+	#ground-work{
+		margin: 0 auto;
+		width: 900px;
+		}
+		/*Шапка*/	
+		.b-header{
+			width:900px;
+			height: 150px;
+			background-color:#0aee15;
+			}	
+			.b-header_logo{
+				float:left;
+				width:200px;
+				height: 120px;
+				background-color: #fff;
+				padding:15px 100px;
+				}
+			.b-header_title{
+				float: right;
+				margin: 25px;
+				width: 450px;
+				height: 100px;
+				border-radius: 10px;/* Скругленные уголки */
+				-webkit-border-radius: 10px;
+				-moz-border-radius: 10px;
+				box-shadow: 0 3px 3px rgba(0,0,0,0.3);/* Параметры тени */
+				-moz-box-shadow: 0 3px 3px rgba(0,0,0,0.3); /* Для Firefox */
+				-webkit-box-shadow: 0 3px 3px rgba(0,0,0,0.3);/* Для Safari и Chrome */
+				/* Параметры тени */
+				background-color: #8CC746;
+		/* Градиентная заливка */
+				background: #a7d761; /* Old browsers */
+		/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+				background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2E3ZDc2MSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM3NWJhMmYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+				background: -moz-linear-gradient(top,  #a7d761 0%, #75ba2f 100%); /* FF3.6+ */
+				background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a7d761), color-stop(100%,#75ba2f)); /* Chrome,Safari4+ */
+				background: -webkit-linear-gradient(top,  #a7d761 0%,#75ba2f 100%); /* Chrome10+,Safari5.1+ */
+				background: -o-linear-gradient(top,  #a7d761 0%,#75ba2f 100%); /* Opera 11.10+ */
+				background: -ms-linear-gradient(top,  #a7d761 0%,#75ba2f 100%); /* IE10+ */
+				background: linear-gradient(top,  #a7d761 0%,#75ba2f 100%); /* W3C */
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a7d761', endColorstr='#75ba2f',GradientType=0 ); /* IE6-8 */
+				}	
+				.e-content{
+					float: left;
+					margin-top: 20px;
+					margin-left: 125px;
+					text-shadow:  2px 2px 2px #777, -2px -2px 2px #777;
+					}
+			.b-header_title a{
+				text-decoration: none;
+				font-family: georgia, serif;
+				font-style: italic;
+				font-size: 50px;
+				color: #fff;
+				}
+			.b-header_title a:hover {
+				text-shadow:  3px 3px 3px #111;
+				}					
+		.b-menu, .b-footer{
+			float:left;
+			width: 960px;
+			height: 50px;
+			background: rgb(255,79,0); /* Old browsers */
+			background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmNGYwMCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZmEwMDAiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+			background: -moz-linear-gradient(top,  rgba(255,79,0,1) 0%, rgba(255,160,0,1) 100%); /* FF3.6+ */
+			background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,79,0,1)), color-stop(100%,rgba(255,160,0,1))); /* Chrome,Safari4+ */
+			background: -webkit-linear-gradient(top,  rgba(255,79,0,1) 0%,rgba(255,160,0,1) 100%); /* Chrome10+,Safari5.1+ */
+			background: -o-linear-gradient(top,  rgba(255,79,0,1) 0%,rgba(255,160,0,1) 100%); /* Opera 11.10+ */
+			background: -ms-linear-gradient(top,  rgba(255,79,0,1) 0%,rgba(255,160,0,1) 100%); /* IE10+ */
+			background: linear-gradient(to bottom,  rgba(255,79,0,1) 0%,rgba(255,160,0,1) 100%); /* W3C */
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff4f00', endColorstr='#ffa000',GradientType=0 ); /* IE6-8 */
+			margin:30px -30px 0 -30px;
+			border-radius: 10px;/* Скругленные уголки */
+				-webkit-border-radius: 10px;
+				-moz-border-radius: 10px;
+			box-shadow: 0 3px 3px rgba(0,0,0,0.3);/* Параметры тени */
+				-moz-box-shadow: 0 3px 3px rgba(0,0,0,0.3); /* Для Firefox */
+				-webkit-box-shadow: 0 3px 3px rgba(0,0,0,0.3);/* Для Safari и Chrome */
+				}			
+				
+	/*Список в строку*/		
+			.b-menu_inline-list {
+				width: 100%;
+				font-size: 20px;
+				margin-left: 50px;			
+				text-shadow: #000 1px 1px 1px;
+				}	
+				.b-menu_inline-list ul, .b-menu_inline-list li {
+					float: left;
+					list-style: none; 		
+					}
+				.b-menu_inline-list li {
+					padding-right:3px;
+					}	
+				.b-menu_inline-list li  a{
+					float: left;
+					padding: 12px 11px 14px;
+					color:#fff; 
+					text-decoration: none;
+					border-radius: 0 0 5px 5px;/* Скругленные уголки */
+						-webkit-border-radius: 0 0 5px 5px;
+						-moz-border-radius:  0 0 5px 5px;
+					}	
+				.b-menu_inline-list li  a:hover {
+					color: #fff; 
+					font-size: 20px;
+					padding: 30px 11px 14px 11px;
+					background: rgb(255,160,0); /* Old browsers */
+					/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+					background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmYTAwMCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZjRmMDAiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+					background: -moz-linear-gradient(top,  rgba(255,160,0,1) 0%, rgba(255,79,0,1) 100%); /* FF3.6+ */
+					background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,160,0,1)), color-stop(100%,rgba(255,79,0,1))); /* Chrome,Safari4+ */
+					background: -webkit-linear-gradient(top,  rgba(255,160,0,1) 0%,rgba(255,79,0,1) 100%); /* Chrome10+,Safari5.1+ */
+					background: -o-linear-gradient(top,  rgba(255,160,0,1) 0%,rgba(255,79,0,1) 100%); /* Opera 11.10+ */
+					background: -ms-linear-gradient(top,  rgba(255,160,0,1) 0%,rgba(255,79,0,1) 100%); /* IE10+ */
+					background: linear-gradient(to bottom,  rgba(255,160,0,1) 0%,rgba(255,79,0,1) 100%); /* W3C */
+					filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffa000', endColorstr='#ff4f00',GradientType=0 ); /* IE6-8 */
+					text-decoration: none;
+					box-shadow: 0 3px 3px rgba(0,0,0,0.3);/* Параметры тени */
+					-moz-box-shadow: 0 3px 3px rgba(0,0,0,0.3); /* Для Firefox */
+					-webkit-box-shadow: 0 3px 3px rgba(0,0,0,0.3);/* Для Safari и Chrome */
+					}		
+	 	/*Список окончание*/	
+	/*Основной блок*/
+	
+		.b-main{
+			float:left;
+			width:900px;
+			margin-top:30px;
+			padding-bottom:30px;
+			border-bottom: 1px solid  #dedede;
+			}		
+			.b-main_title, .b-main_close{
+				float: left;
+				margin: 10px;
+				width: 250px;
+				height: 50px;
+				border-radius: 10px;/* Скругленные уголки */
+					-webkit-border-radius: 10px;
+					-moz-border-radius: 10px;
+				box-shadow: 0 3px 3px rgba(0,0,0,0.3);/* Параметры тени */
+				-moz-box-shadow: 0 3px 3px rgba(0,0,0,0.3); /* Для Firefox */
+				-webkit-box-shadow: 0 3px 3px rgba(0,0,0,0.3);/* Для Safari и Chrome */
+				/*Градиент*/
+				background-color: #8CC746;
+				background: rgb(192,64,0); /* Old browsers */
+				background: -moz-linear-gradient(top,  rgba(192,64,0,1) 0%, rgba(233,116,81,1) 100%); /* FF3.6+ */
+				background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(192,64,0,1)), color-stop(100%,rgba(233,116,81,1))); /* Chrome,Safari4+ */
+				background: -webkit-linear-gradient(top,  rgba(192,64,0,1) 0%,rgba(233,116,81,1) 100%); /* Chrome10+,Safari5.1+ */
+				background: -o-linear-gradient(top,  rgba(192,64,0,1) 0%,rgba(233,116,81,1) 100%); /* Opera 11.10+ */
+				background: -ms-linear-gradient(top,  rgba(192,64,0,1) 0%,rgba(233,116,81,1) 100%); /* IE10+ */
+				background: linear-gradient(to bottom,  rgba(192,64,0,1) 0%,rgba(233,116,81,1) 100%); /* W3C */
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c04000', endColorstr='#e97451',GradientType=0 ); /* IE6-9 */
+				text-align: center;
+				padding-top: 15px;
+				text-shadow:  2px 2px 2px #000;
+				font-family: georgia, serif;
+				font-style: italic;
+				font-size: 25px;
+				color: #fff;
+				}
+			
+	/*Аккордеон*/				
+
+			.accordion{
+				float:left;
+				border-bottom: 3px solid #FFDB58;
+				width:900px;
+				}
+			.accordion_title {
+				background:  #a7d761;
+				border-color: #FFDB58 #FFDB58 ;
+				border-style: solid solid none;
+				border-width: 3px 3px medium;
+				cursor: pointer;
+				color: #fff;
+				text-shadow: 1px 1px 1px #000;
+				margin: 0;
+				padding: 7px 15px;
+				}
+			.accordion_title.active{
+				background: #a7d761;
+				}
+			.accordion_title:hover {
+				background-color: #F96537;
+				}
+			.accordion_content {
+				background: none repeat scroll 0 0 #FFFDD0;
+				border-left: 3px solid #FFDB58;
+				border-right: 3px solid #FFDB58;
+				display: none;
+				margin: 0;
+				padding: 10px 15px 20px;
+				}
+				.accordion_content  a{
+					text-decoration: none;
+					color:#C04000;
+					}
+				.accordion_content ul {
+					margin: 5px 25px 0;}
+				
+/*Аккордеон окончание*/	
+	
+			.b-main_close{
+				margin: 10px;
+				width: 200px;
+				height: 25px;				
+				padding-top: 0px;				
+				font-size: 20px;
+				text-decoration: none;
+				}
+											
+  /* Футер*/
+		.b-footer{
+			margin:30px -30px; 
+			box-shadow: 0 -3px 3px rgba(0,0,0,0.3);/* Параметры тени */
+				-moz-box-shadow: 0 -3px 3px rgba(0,0,0,0.3); /* Для Firefox */
+				-webkit-box-shadow: 0 -3px 3px rgba(0,0,0,0.3);/* Для Safari и Chrome */
+				}
+					
+			.e-mail, .e-tlf{
+				float: left;
+				margin-left: 100px;
+				margin-top: 12px;
+				height: 20px;
+				color:#fff; 
+				font-size: 18px;
+				text-shadow: #000 1px 1px 1px;
+				}
+			.e-tlf{
+				float: right;
+				margin-right: 100px;
+				}	
+				
+				
+		   

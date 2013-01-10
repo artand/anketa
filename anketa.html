@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+<head>
+	
+	<title>anketa</title>
+	<meta name="generator" content="anketa">
+	<meta name="autor" content="evpator">
+	<meta name="copyright" content="любое копирование информации только соссылкой на источник">
+	<meta charset="UTF-8">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" type="text/css" href="anketa.css">
+	<title>jQuery. Accordion</title>
+	
+	<script type="text/javascript" src="jquery.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+		$(".accordion h3").click(function(){
+		$(this).next().slideToggle('slow')		
+		$(this).toggleClass("active");
+		});	
+		$(".anketa__shutdown").click(function(){
+		$(".accordion div").slideUp(); $(".accordion div").slideUp(); return false; 
+		})
+		});
+	</script>
+
+</head>
+<body>
+
+	<div class="anketa">
+<!--Шапка страницы-->
+		<div class="anketa__logo">
+			<img src="pic/foto1.jpg" alt="">
+		</div>	
+		<header>
+			<a href="https://github.com/artand" class="e-content" target="_blank">Анкета</a>
+		</header>
+<!--Навигация-->	
+		<ul class="anketa__nav anketa__quest">
+			<li class="anketa__quest"><a href="#quest">Общие вопросы</a></li>
+			<li class="anketa__quest"><a href="#exper">Опыт разработки</a></li>
+		</ul>
+<!--Основной блок-->
+		<h2 id="quest">Общие вопросы</h2>
+		<!--Аккордеон-->
+		<ul class="accordion">
+			<li>
+				<h3>Фамилия, имя, отчество</h3>
+				<div class="accordion__content">
+					Артюх Андрей Викторович
+				</div>
+			</li>
+			<li>
+				<h3>Год рождения</h3>
+				<div class="accordion__content">
+					1975
+				</div>
+			</li>
+			<li>
+				<h3>Город, в котором живёте</h3>
+				<div class="accordion__content">
+					Евпатория
+				</div>
+			</li>
+			<li>
+				<h3>Вуз, факультет, специальность, кафедра</h3>
+				<div class="accordion__content">
+					 ХВУ, специальность: "Радиоэлектронные устройства, системы и комплексы."
+				</div>
+			</li>
+			<li>
+				<h3>Год окончания вуза </h3>
+				<div class="accordion__content">
+					1999  
+				</div>
+			</li>
+			<li>
+				<h3>Уровень владения английским языком </h3>
+				<div class="accordion__content">
+					Школьная программа. Headway 1,2  
+				</div>
+			</li>
+			<li>
+				<h3>Чего вы ожидаете от участия в Школе? </h3>
+				<div class="accordion__content">
+					Прежде всего знания и системный подход к верстке. Хочу сделать это своей профессией.  
+				</div>
+			</li>
+			<li>
+				<h3>Откуда вы о нас узнали? </h3>
+				<div class="accordion__content">
+					Брат посоветовал.  
+				</div>
+			</li>
+			<li>
+				<h3>Сколько времени вы готовы уделять стажировке или работе в Яндексе? </h3>
+				<div class="accordion__content">
+					 Все свободное время. 
+				</div>
+			</li>			
+		</ul>
+		
+		<h2 id="exper">Опыт разработки</h2>		
+		<ul class="accordion">
+			<li>
+				<h3>Расскажите нам о вашем опыте разработки. Ничего не упускайте: это может быть как серьезный интерфейс, так и просто домашняя страничка. </h3>
+				<div class="accordion__content">
+					<p>Пробовал верстать несколько проектов. Результаты прилагаю:</p>
+				<ul>
+					<li><a href="https://github.com/artand/WPBlog" target="_blank">WPBlog</a> - верстка со страницы в интернете,</li>
+					<li><a href="https://github.com/artand/EasyLanguages" target="_blank">EasyLanguage</a> - верстка с PSD шаблона,</li>
+					<li><a href="https://github.com/artand/WeitingRoom" target="_blank">WaitingRoom</a> - верстка с PSD шаблона,</li>
+					<li><a href="https://github.com/artand/InstMed" target="_blank">InstMed</a> - верстка с PSD шаблона,</li>
+					<li><a href="https://github.com/artand/Rezume_Yandex" target="_blank">Rezume_Yandex</a> - то, что перед глазами.</li>
+				</ul>  
+				</div>
+			</li>
+			<li>
+				<h3>Какие языки программирования, фреймворки и технологии вы использовали? Сложились ли у вас личные предпочтения? </h3>
+				<div class="accordion__content">
+					HTML, CSS, Firebag, jQuery (немного) 
+				</div>
+			</li>
+			<li>
+				<h3>С какими редакторами и средами разработки вы знакомы? Чем обычно пользуетесь? </h3>
+				<div class="accordion__content">
+					Notepad++, Sublime Text 2, пользуюсь Notepad++.  
+				</div>
+			</li>
+			<li>
+				<h3>С какими ОС приходилось сталкиваться? Для каких целей вы их применяли? </h3>
+				<div class="accordion__content">
+					Windows XP, 7 - для работы, Windows Vista, Mac OS Lion 10.7, Ubunti- в плане ознакомления  
+				</div>
+			</li>
+			<li>
+				<h3>Приходилось ли вам работать с системами контроля версий? С какими? Какая из них вам нравится больше всего? </h3>
+				<div class="accordion__content">
+					GitHub<br>Благодаря вам узнал, что это такое, разобрался, как это работает, для чего вообще нужно.  
+				</div>
+			</li>
+			<li>
+				<h3>Использовали ли вы системы постановки и ведения задач? </h3>
+				<div class="accordion__content">
+					Нет  
+				</div>
+			</li>
+			<li>
+				<h3>Какие полезные для фронтенд-разработчика ресурсы вы используете и готовы посоветовать? </h3>
+				<div class="accordion__content">
+					<a href="http://htmlbook.ru" target="_blank">htmlbook.ru</a><br>
+				<a href="http://anton.shevchuk.name" target="_blank">anton.shevchuk.name</a><br>
+				<a href="http://cssing.org.ua" target="_blank">cssing.org.ua</a><br>
+				<a href="http://www.colorzilla.com" target="_blank">colorzilla.com</a><br>
+				<a href="http://web-standards.ru" target="_blank">web-standards.ru</a><br>
+				<a href="http://habrahabr.ru" target="_blank">habrahabr.ru</a><br>	  
+				</div>
+			</li>
+			<li>
+				<h3>Где вы работали раньше? Что именно делали? Есть ли у вас опыт работы в команде? </h3>
+				<div class="accordion__content">
+					НЦУИКС радио-инженер  
+				</div>
+			</li>			
+		</ul>
+		
+		<button class="anketa__shutdown">Свернуть все</button>
+		
+		<a href="#" class="b-main_close">
+			Свернуть все
+		</a>
+		
+		<div class="line"></div>
+<!-- Футер-->		
+		<footer>
+			<a class="anketa__email" href="mailto:mail@gmail.com">mailevpator@gmail.com</a>
+			<div class="anketa__phone">+38-067-1316875</div>
+		</footer>
+		<div class="clear"></div>
+	</div>
+	
+</body>
+</html>
