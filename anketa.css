@@ -85,15 +85,12 @@ body {
 			font-size: 20px;
 			padding-left: 50px;			
 			text-shadow: #000 1px 1px 1px;
-			}	
-			.anketa__quest {
-				float: left;
-				list-style: none; 		
-				}
-			li.anketa__quest {
+			list-style: none; 		
+			}
+			.anketa__nav li {
 				padding-right:3px;
 				}	
-			li.anketa__quest  a{
+			.anketa__nav li  a{
 				float: left;
 				padding: 12px 11px 14px;
 				color:#fff; 
@@ -102,7 +99,7 @@ body {
 				-webkit-border-radius: 0 0 5px 5px;
 				-moz-border-radius:  0 0 5px 5px;
 				}	
-			li.anketa__quest  a:hover {
+			.anketa__nav li  a:hover {
 				color: #fff; 
 				font-size: 20px;
 				padding: 30px 11px 14px 11px;
@@ -204,45 +201,10 @@ body {
 			text-decoration: none;
 			cursor: pointer;
 			}
+		button:focus{
+			outline:none;
+			}
 		
-		.b-main_close{
-				float: left;
-				margin: 10px;
-				width: 250px;
-				height: 50px;
-				border-radius: 10px;/* Скругленные уголки */
-					-webkit-border-radius: 10px;
-					-moz-border-radius: 10px;
-				box-shadow: 0 3px 3px rgba(0,0,0,0.3);/* Параметры тени */
-				-moz-box-shadow: 0 3px 3px rgba(0,0,0,0.3); /* Для Firefox */
-				-webkit-box-shadow: 0 3px 3px rgba(0,0,0,0.3);/* Для Safari и Chrome */
-				/*Градиент*/
-				background-color: #8CC746;
-				background: rgb(192,64,0); /* Old browsers */
-				background: -moz-linear-gradient(top,  rgba(192,64,0,1) 0%, rgba(233,116,81,1) 100%); /* FF3.6+ */
-				background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(192,64,0,1)), color-stop(100%,rgba(233,116,81,1))); /* Chrome,Safari4+ */
-				background: -webkit-linear-gradient(top,  rgba(192,64,0,1) 0%,rgba(233,116,81,1) 100%); /* Chrome10+,Safari5.1+ */
-				background: -o-linear-gradient(top,  rgba(192,64,0,1) 0%,rgba(233,116,81,1) 100%); /* Opera 11.10+ */
-				background: -ms-linear-gradient(top,  rgba(192,64,0,1) 0%,rgba(233,116,81,1) 100%); /* IE10+ */
-				background: linear-gradient(to bottom,  rgba(192,64,0,1) 0%,rgba(233,116,81,1) 100%); /* W3C */
-				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c04000', endColorstr='#e97451',GradientType=0 ); /* IE6-9 */
-				text-align: center;
-				padding-top: 15px;
-				text-shadow:  2px 2px 2px #000;
-				font-family: georgia, serif;
-				font-style: italic;
-				font-size: 25px;
-				color: #fff;
-				}	
-			.b-main_close{
-				margin: 10px;
-				width: 200px;
-				height: 25px;				
-				padding-top: 0px;				
-				font-size: 20px;
-				text-decoration: none;
-				}
-				
  /* Футер*/
 		footer{
 			width: 960px;
