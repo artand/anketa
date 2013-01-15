@@ -10,17 +10,17 @@ body {
 		width: 900px;
 		background: #FFF;
 		font-family: Tahoma,  sans-serif;
-		padding: 0 40px;
+		padding: 0 40px 10px;
 		}
 /*Шапка*/
 		.anketa__logo{
-			float:left;
+			/*float:left;*/
 			width:200px;
 			height: 120px;				
 			padding:15px 100px;
 			}
 		header{
-			float: right;
+			/*float:right;*/
 			margin: 25px;
 			width: 325px;
 			height: 80px;
@@ -59,7 +59,7 @@ body {
 				}
 /*Навигация*/			
 		.anketa__nav, footer{
-			float:left;
+			/*float:left;*/
 			width: 910px;
 			height: 50px;
 			background: rgb(255,79,0); /* Old browsers */
@@ -121,7 +121,7 @@ body {
 	 		
 /*Основной блок*/
 		h2, .anketa__shutdown{
-			float: left;
+			/*float: left;*/
 			clear: both;
 			margin: 10px;
 			width: 250px;
@@ -154,7 +154,7 @@ body {
 			
 		/*Аккордеон*/				
 		.accordion{
-			float:left;
+			/*float: left;*/
 			border-bottom: 3px solid #FFDB58;
 			width:900px;
 			list-style: none; 
@@ -226,11 +226,10 @@ body {
 				float: right;
 				margin-right: 100px;
 				}	
-		.clear { 
-			clear: both; 
-			}
+		
+			
 		.line {
-			float:left;
+			/*float: left;*/
 			width:900px;
 			height:1px;
 			margin-top:30px;
