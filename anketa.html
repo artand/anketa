@@ -19,8 +19,8 @@
 		$(this).next().slideToggle('slow')		
 		$(this).toggleClass("active");
 		});	
-		$(".anketa__shutdown").click(function(){
-		$(".accordion div").slideUp(); $(".accordion div").slideUp(); return false; 
+		$(".anketa__shutdown").click(function(){		
+		$(".accordion div").slideUp(); return false; 
 		})
 		});
 	</script>
@@ -30,11 +30,13 @@
 
 	<div class="anketa">
 <!--Шапка страницы-->
-		<div class="anketa__logo">
-			<img src="pic/foto1.jpg" alt="">
-		</div>	
 		<header>
-			<a href="https://github.com/artand" class="e-content" target="_blank">Анкета</a>
+			<div class="anketa__logo">
+				<img src="pic/foto1.jpg" alt="">
+			</div>	
+			<a href="https://github.com/artand" target="_blank">
+				<h1>Анкета</h1>
+			</a>
 		</header>
 <!--Навигация-->	
 		<ul class="anketa__nav">
@@ -166,6 +168,9 @@
 		</ul>
 		
 		<div class="anketa__shutdown">Свернуть все</div>
+		
+		
+		
 		<div class="line"></div>
 <!-- Футер-->		
 		<footer>

@@ -13,50 +13,56 @@ body {
 		padding: 0 40px 10px;
 		}
 /*Шапка*/
-		.anketa__logo{
-			/*float:left;*/
-			width:200px;
-			height: 120px;				
-			padding:15px 100px;
-			}
 		header{
-			/*float:right;*/
-			margin: 25px;
-			width: 325px;
-			height: 80px;
-			padding-top: 20px;
-			padding-left: 125px;
-			text-shadow:  2px 2px 2px #777, -2px -2px 2px #777;
-			border-radius: 10px;/* Скругленные уголки */
-			-webkit-border-radius: 10px;
-			-moz-border-radius: 10px;
-			box-shadow: 0 3px 3px rgba(0,0,0,0.3);/* Параметры тени*/
-			-moz-box-shadow: 0 3px 3px rgba(0,0,0,0.3); /* Для Firefox */
-			-webkit-box-shadow: 0 3px 3px rgba(0,0,0,0.3);/* Для Safari и Chrome */
-			/* Параметры тени */
-			background-color: #8CC746;
-			/* Градиентная заливка */
-			background: #a7d761; /* Old browsers */
-			/* IE9 SVG, needs conditional override of 'filter' to 'none' */
-			background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2E3ZDc2MSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM3NWJhMmYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
-			background: -moz-linear-gradient(top,  #a7d761 0%, #75ba2f 100%); /* FF3.6+ */
-			background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a7d761), color-stop(100%,#75ba2f)); /* Chrome,Safari4+ */
-			background: -webkit-linear-gradient(top,  #a7d761 0%,#75ba2f 100%); /* Chrome10+,Safari5.1+ */
-			background: -o-linear-gradient(top,  #a7d761 0%,#75ba2f 100%); /* Opera 11.10+ */
-			background: -ms-linear-gradient(top,  #a7d761 0%,#75ba2f 100%); /* IE10+ */
-			background: linear-gradient(top,  #a7d761 0%,#75ba2f 100%); /* W3C */
-			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a7d761', endColorstr='#75ba2f',GradientType=0 ); /* IE6-8 */
+			width:900px;
+			height: 150px;
 			}
-			header a{
+			.anketa__logo{
+				/*float:left;*/
+				width:200px;
+				height: 120px;				
+				padding:15px 100px;
+				}
+			a h1{
+				/*float:right;*/
+				margin: 25px;
+				width: 325px;
+				height: 80px;
+				padding-top: 20px;
+				padding-left: 125px;
+				text-shadow:  2px 2px 2px #777, -2px -2px 2px #777;
+				border-radius: 10px;/* Скругленные уголки */
+				-webkit-border-radius: 10px;
+				-moz-border-radius: 10px;
+				box-shadow: 0 3px 3px rgba(0,0,0,0.3);/* Параметры тени*/
+				-moz-box-shadow: 0 3px 3px rgba(0,0,0,0.3); /* Для Firefox */
+				-webkit-box-shadow: 0 3px 3px rgba(0,0,0,0.3);/* Для Safari и Chrome */
+				/* Параметры тени */
+				background-color: #8CC746;
+				/* Градиентная заливка */
+				background: #a7d761; /* Old browsers */
+				/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+				background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2E3ZDc2MSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM3NWJhMmYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+				background: -moz-linear-gradient(top,  #a7d761 0%, #75ba2f 100%); /* FF3.6+ */
+				background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a7d761), color-stop(100%,#75ba2f)); /* Chrome,Safari4+ */
+				background: -webkit-linear-gradient(top,  #a7d761 0%,#75ba2f 100%); /* Chrome10+,Safari5.1+ */
+				background: -o-linear-gradient(top,  #a7d761 0%,#75ba2f 100%); /* Opera 11.10+ */
+				background: -ms-linear-gradient(top,  #a7d761 0%,#75ba2f 100%); /* IE10+ */
+				background: linear-gradient(top,  #a7d761 0%,#75ba2f 100%); /* W3C */
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a7d761', endColorstr='#75ba2f',GradientType=0 ); /* IE6-8 */
 				text-decoration: none;
 				font-family: georgia, serif;
 				font-style: italic;
 				font-size: 50px;
+				font-weight: normal;
 				color: #fff;
-				}
-			header a:hover {
-				text-shadow:  3px 3px 3px #111;
-				}
+				}	
+				header a {
+					text-decoration: none;					
+					}
+				 a h1:hover {
+					text-shadow:  3px 3px 3px #111;
+					}
 /*Навигация*/			
 		.anketa__nav, footer{
 			/*float:left;*/
